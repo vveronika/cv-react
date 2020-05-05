@@ -8,7 +8,7 @@ export const FooterWrapper = styled.div`
   display: flex;
   align-items: center;
   height: 47px;
-  margin-top: 35px;
+  margin-top: 60px;
 
   @media (max-width: 1024px) {
     padding: 0 5%;
