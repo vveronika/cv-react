@@ -6,7 +6,7 @@ export const AdditionalSkills = [
   'eye for detail, strong communication skills',
 ];
 
-export const NetbullsTechnologies = ['React', 'React Native', 'Typescript'];
+export const NetbullsTechnologies = ['React', 'React Native', 'TypeScript'];
 export const NetbullsResponsibilities = [
   'delivering new features along with resolving maintanance tasks - updating current features and fixing bugs',
   'taking part in workshops with client',
@@ -17,7 +17,7 @@ export const Look4AppTechnologies = [
   'React',
   'React Native',
   'Angular',
-  'Typescript',
+  'TypeScript',
 ];
 export const Look4AppResponsibilities = [
   'delivering new features in current projects',
@@ -27,7 +27,7 @@ export const Look4AppResponsibilities = [
   'taking part in internal training meetings, conducting some of them',
 ];
 
-export const HypermediaTechnologies = ['Javascript', 'Drupal'];
+export const HypermediaTechnologies = ['JavaScript', 'Drupal'];
 export const HypermediaResponsibilities = [
   'updating current design of existing web pages according to the designs',
   'publishing new content using CMS',

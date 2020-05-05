@@ -24,10 +24,12 @@ export const IconWrapper = styled.div`
 export const Icon = styled(FontAwesomeIcon)`
   font-size: 15px;
   & path {
-    fill: #fbfbfb;
+    fill: ${(props) => props.theme.white};
   }
 `;
 
-export const TextWrapper = styled.div`
+export const TextWrapper = styled.a`
   font-size: 14px;
+  color: ${(props) => props.theme.darkGrey};
+  text-decoration: none;
 `;

@@ -9,6 +9,7 @@ import {
 interface Props {
   icon: ['fab', 'github'] | 'mobile-alt' | 'envelope';
   contactDetail: string;
+  link: string;
 }
 
 const ContactItem: React.FC<Props> = (props) => {
@@ -17,7 +18,7 @@ const ContactItem: React.FC<Props> = (props) => {
       <IconWrapper>
         <Icon icon={props.icon} />
       </IconWrapper>
-      <TextWrapper>{props.contactDetail}</TextWrapper>
+      <TextWrapper target="_blank" href={props.link}>{props.contactDetail}</TextWrapper>
     </ItemWrapper>
   );
 };

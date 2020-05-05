@@ -21,12 +21,13 @@ const HeaderBar: React.FC<Props> = (props) => {
         <PageSubtitle subtitle={props.subtitle} />
       </HeaderBorder>
       <ContactWrapper>
-        <ContactItem icon="envelope" contactDetail="vv.fiedoruk@gmail.com" />
+        <ContactItem link="mailto:vv.fiedoruk@gmail.com" icon="envelope" contactDetail="vv.fiedoruk@gmail.com" />
         <ContactItem
+          link="https://github.com/vveronika/"
           icon={['fab', 'github']}
           contactDetail="github.com/vveronika"
         />
-        <ContactItem icon="mobile-alt" contactDetail="+48 537 509 226" />
+        <ContactItem link="tel:+48537509226" icon="mobile-alt" contactDetail="+48 537 509 226" />
       </ContactWrapper>
     </HeaderWrapper>
   );
